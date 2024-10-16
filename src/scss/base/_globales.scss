@@ -1,0 +1,62 @@
+@use "variables" as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: v.$fuentePrincipal;
+    font-size: 1.6rem;
+
+    &.fijar-body {
+        overflow: hidden;
+    }
+    &.body-scroll {
+        padding-top: 8.6rem;
+    }
+}
+p {
+    font-size: 2rem;
+    color: v.$negro;
+}
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3 {
+    margin: 0 0 4rem 0;
+}
+h1 {
+    font-family: v.$fuenteTitulo;
+    font-weight: 700;
+    font-size: 4rem;
+}
+h2 {
+    font-family: v.$fuenteSubTitulo;
+    font-weight: normal;
+    font-size: 3.6rem;
+}
+h3 {
+    font-family: v.$fuentePrincipal;
+    font-weight: normal;
+    font-size: 3rem;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}

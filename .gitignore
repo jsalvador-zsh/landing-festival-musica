@@ -1,0 +1,21 @@
+# Node.js modules
+node_modules/
+
+# Build folder
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Package files
+package-lock.json
+
+# IDEs and editors
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
